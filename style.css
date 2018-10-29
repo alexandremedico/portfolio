@@ -1,0 +1,531 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  /*-webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;*/
+}
+html
+{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+body
+{
+  background: no-repeat;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+  margin: 0px;
+  padding: 0px;
+  font-family: "titre";
+}
+
+@font-face
+{
+  font-family: "varsity";
+  src: url(./typo/varsity_regular.ttf);
+}
+@font-face
+{
+  font-family: "titre";
+  src: url(./typo/Mermaid1001.ttf);
+}
+.nom
+{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+}
+.nom p
+{
+  display: flex;
+  justify-content: center;
+  font-size: 45px;
+  color: white;
+  padding-bottom: 10px;
+}
+.nom h1
+{
+  color: white;
+  font-size: 80px;
+  text-align: center;
+  padding-bottom: 15px;
+}
+.presentation
+{
+  color: white;
+  font-size: 22px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.social img
+{
+  width: 50px;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 4px;
+}
+.social
+{
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  left: 0;
+  bottom: 150px;
+}
+.menu nav ul
+{
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  justify-content: space-around;
+  width: 40%;
+}
+.menu nav ul li
+{
+  /*padding-right: 50px;*/
+  color: black;
+  font-family: "varsity";
+}
+.menu nav ul li a
+{
+  text-decoration: none;
+  color: black;
+
+}
+.premier
+{
+  flex-direction: column;
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+ul
+{
+  justify-content: flex-end;
+}
+.container
+{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.nav-bar
+{
+  padding-top: 5px;
+  padding-bottom: 5px;
+  display: flex;
+  position: fixed;
+  width: 100%;
+  justify-content: flex-end;
+}
+
+.presentation p
+{
+  padding: 15px;
+}
+/********* fleche ********/
+
+.fleche
+{
+  font-size: 40px;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+.fa-arrow-alt-circle-up
+{
+  color: black;
+}
+/*********** page 2 *************/
+
+.container1
+{
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%);
+}
+button
+{
+  margin-top: 20px;
+  display: none;
+}
+.container1 .premier .container .presentation p
+{
+  font-size: 30px;
+}
+/********** page 3 *************/
+.container2
+{
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(to top, #9795f0 0%, #fbc8d4 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.img img
+{
+  width: 300px;
+  height: 300px;
+}
+.img
+{
+  display: flex;
+  justify-content: center;
+}
+.formation
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.dfsa, .dfs
+{
+  width: 400px;
+}
+.formation .dfs h1, .formation .dfsa h1
+{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 5px;
+}
+.formation .dfsa p, .formation .dfs p
+{
+  font-size: 17px;
+  padding-top: 10px;
+}
+
+/********** page 4 *********/
+
+.container3
+{
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+}
+.container3 h1
+{
+  text-align: center;
+  padding-top: 10px;
+  color: white;
+}
+.container3 .cv
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.container3 .cv a
+{
+  width: 30%;
+  height: 35%;
+}
+.container3 .cv a img
+{
+  width: 100%;
+  height: 100%;
+}
+.container3 .cv p
+{
+  width: 40%;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+.container3 .projet1
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.container3 .projet1 a
+{
+  width: 30%;
+  height: 35%;
+}
+.container3 .projet1 a img
+{
+  width: 100%;
+  height: 100%;
+}
+.container3 .projet1 p
+{
+  width: 40%;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+/********** page 5 **********/
+
+.container4
+{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-image: radial-gradient(circle 248px at center, #16d9e3 0%, #30c7ec 47%, #46aef7 100%);
+  align-items: center;
+}
+.container4 h1
+{
+  text-align: center;
+}
+.container4 h2
+{
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding-left: 5px;
+  color: white;
+}
+.container41, .container42, .container43, .container44, .container45
+{
+  width: 40%;
+}
+.container41 .box
+{
+  width: 75%;
+  height: 30px;
+  position: relative;
+  animation: vroum 2s linear;
+  background-color: orange;
+}
+.container42 .box1
+{
+  width: 75%;
+  height: 30px;
+  position: relative;
+  animation: vroum1 2s linear;
+  background-color: blue;
+}
+.container43 .box2
+{
+  width: 10%;
+  height: 30px;
+  position: relative;
+  animation: vroum2 2s linear;
+  background-color: #FFDB06;
+}
+.container44 .box3
+{
+  width: 30%;
+  height: 30px;
+  position: relative;
+  animation: vroum3 2s linear;
+  background-color: blueviolet;
+}
+.container45 .box4
+{
+  width: 30%;
+  height: 30px;
+  position: relative;
+  animation: vroum4 2s linear;
+  background-color: red;
+}
+.container41, .container42, .container43, .container44, .container45
+{
+  border: 2px solid black;
+  width:
+}
+@keyframes vroum {
+  0% {
+    background-color: orange;
+    width: 0%;
+  }
+    100% {
+      background-color: orange;
+      width: 75%;
+    }
+}
+@keyframes vroum1 {
+  0% {
+    background-color: blue;
+    width: 0%;
+  }
+    100% {
+      background-color: blue;
+      width: 75%;
+    }
+}
+@keyframes vroum2 {
+  0% {
+    background-color: #FFDB06;
+    width: 0%;
+  }
+    100% {
+      background-color: #FFDB06;
+      width: 10%;
+    }
+}
+@keyframes vroum3 {
+  0% {
+    background-color: blueviolet;
+    width: 0%;
+  }
+    100% {
+      background-color: blueviolet;
+      width: 30%;
+    }
+}
+@keyframes vroum4 {
+  0% {
+    background-color: red;
+    width: 0%;
+  }
+    100% {
+      background-color: red;
+      width: 30%;
+    }
+}
+/********** page 6 **********/
+
+.container5
+{
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+}
+
+.container5 p
+{
+  height: 100%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+}
+
+/************ responsive ***********/
+
+@media (max-width: 1200px) {
+  .premier .menu nav ul li a
+  {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .premier .menu nav ul li a
+  {
+    font-size: 10px;
+  }
+  .menu .nav-bar ul
+  {
+    width: 60%;
+  }
+}
+
+@media (max-width: 800px) {
+  .premier .menu nav ul li a
+  {
+    menu burger;
+  }
+  .container5 p
+  {
+    font-size: 17px;
+  }
+  .container2
+  {
+    display: flex;
+    flex-direction: column;
+  }
+  .img
+  {
+    width: 100%;
+  }
+  .container, .container1, .container2, .container3, .container4
+  {
+    width: 100%;
+    height: 100%;
+  }
+  .none{
+    display: none !important;
+  }
+  .container2 .formation .dfsa, .container2 .formation .dfs
+  {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 70%;
+  }
+  button
+  {
+    display: flex;
+    padding: 10px;
+    width: 60px;
+    border: 2px solid black;
+  }
+  .formation
+  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .dfs, .dfsa
+  {
+    width: 70%;
+  }
+  .menu .nav-bar ul
+  {
+    width: 100%;
+  }
+}
+@media (max-width: 600px) {
+  .premier .nom h1
+  {
+    font-size: 60px;
+  }
+  .premier .nom p
+  {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 500px) {
+  .container2 img
+  {
+    width: 30%;
+    height: 30%;
+  }
+  .container2 .formation h1
+  {
+    font-size: 17px;
+  }
+  .container2 .formation p
+  {
+    font-size: 12px;
+  }
+  .container3 p
+  {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 400px) {
+  .premier .nom h1
+  {
+    font-size: 30px;
+  }
+  .premier .nom p
+  {
+    font-size: 25px;
+  }
+}

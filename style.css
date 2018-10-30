@@ -236,12 +236,12 @@ button
 .container3 .cv a
 {
   width: 30%;
-  height: 35%;
+  height: 30%;
 }
-.container3 .cv a img
+.container3 .cv a img, .container3 .projet2 a img, .container3 .projet1 a img
 {
-  width: 100%;
-  height: 100%;
+  width: 80%;
+  height: 80%;
 }
 .container3 .cv p
 {
@@ -259,14 +259,27 @@ button
 .container3 .projet1 a
 {
   width: 30%;
-  height: 35%;
-}
-.container3 .projet1 a img
-{
-  width: 100%;
-  height: 100%;
+  height: 30%;
 }
 .container3 .projet1 p
+{
+  width: 40%;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+.container3 .projet2
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.container3 .projet2 a
+{
+  width: 30%;
+  height: 30%;
+}
+.container3 .projet2 p
 {
   width: 40%;
   display: flex;

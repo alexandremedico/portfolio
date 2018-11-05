@@ -439,6 +439,11 @@ button
   {
     font-size: 14px;
   }
+  .container2 .img img
+  {
+    width: 30%;
+    height: 30%;
+  }
 }
 
 @media (max-width: 1000px) {

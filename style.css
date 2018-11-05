@@ -435,6 +435,10 @@ button
   {
     font-size: 12px;
   }
+  .container2 .formation .dfs p, .container2 .formation .dfsa p
+  {
+    font-size: 14px;
+  }
 }
 
 @media (max-width: 1000px) {
